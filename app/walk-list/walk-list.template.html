@@ -1,0 +1,9 @@
+<div class="container">
+  <h1>Dog Snack Calculator</h1>
+  <p>Welcome to dog snack calculator, please select one of the walks below to see map of the walk along with the number of snacks required.</p>
+  <ul>
+    <li ng-repeat="walk in $ctrl.walks">
+      <a href="/#!/walks/{{walk.id}}">{{walk.name}}</a>
+    </li>
+  </ul>
+</div>
